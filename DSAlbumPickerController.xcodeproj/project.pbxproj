@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B045A431C4A83F700CC8F31 /* DSAlbumPickerControllerDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B045A421C4A83F700CC8F31 /* DSAlbumPickerControllerDemo.gif */; };
 		0B9B3EE21C44A271002480EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B3EE11C44A271002480EA /* main.m */; };
 		0B9B3EE51C44A271002480EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B3EE41C44A271002480EA /* AppDelegate.m */; };
 		0B9B3EE81C44A271002480EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B3EE71C44A271002480EA /* ViewController.m */; };
@@ -15,6 +16,16 @@
 		0B9B3EF01C44A271002480EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B9B3EEE1C44A271002480EA /* LaunchScreen.storyboard */; };
 		0B9B3EFB1C44A271002480EA /* DSAlbumPickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B3EFA1C44A271002480EA /* DSAlbumPickerControllerTests.m */; };
 		0B9B3F061C44A271002480EA /* DSAlbumPickerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B3F051C44A271002480EA /* DSAlbumPickerControllerUITests.m */; };
+		0B9B3F1C1C44A286002480EA /* ImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B3F151C44A286002480EA /* ImagePickerView.m */; };
+		0B9B3F1D1C44A286002480EA /* ImagePickerViewCameraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B3F171C44A286002480EA /* ImagePickerViewCameraCell.m */; };
+		0B9B3F1E1C44A286002480EA /* ImagePickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B3F191C44A286002480EA /* ImagePickerViewCell.m */; };
+		0B9B3F1F1C44A286002480EA /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B3F1B1C44A286002480EA /* ImagePickerViewController.m */; };
+		0B9B3F211C44A354002480EA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9B3F201C44A354002480EA /* AssetsLibrary.framework */; };
+		0BA1ED171C4A764800CBC53A /* common_radio_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA1ED131C4A764800CBC53A /* common_radio_selected@2x.png */; };
+		0BA1ED181C4A764800CBC53A /* common_radio_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA1ED141C4A764800CBC53A /* common_radio_selected@3x.png */; };
+		0BA1ED191C4A764800CBC53A /* user_center_no-photo-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA1ED151C4A764800CBC53A /* user_center_no-photo-right@2x.png */; };
+		0BA1ED1A1C4A764800CBC53A /* user_center_no-photo-right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA1ED161C4A764800CBC53A /* user_center_no-photo-right@3x.png */; };
+		0BA1ED1D1C4A7BF400CBC53A /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1ED1C1C4A7BF400CBC53A /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B045A421C4A83F700CC8F31 /* DSAlbumPickerControllerDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DSAlbumPickerControllerDemo.gif; sourceTree = "<group>"; };
 		0B9B3EDD1C44A271002480EA /* DSAlbumPickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSAlbumPickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9B3EE11C44A271002480EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B9B3EE31C44A271002480EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,21 @@
 		0B9B3F011C44A271002480EA /* DSAlbumPickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSAlbumPickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9B3F051C44A271002480EA /* DSAlbumPickerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAlbumPickerControllerUITests.m; sourceTree = "<group>"; };
 		0B9B3F071C44A271002480EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B9B3F141C44A286002480EA /* ImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerView.h; sourceTree = "<group>"; };
+		0B9B3F151C44A286002480EA /* ImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerView.m; sourceTree = "<group>"; };
+		0B9B3F161C44A286002480EA /* ImagePickerViewCameraCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewCameraCell.h; sourceTree = "<group>"; };
+		0B9B3F171C44A286002480EA /* ImagePickerViewCameraCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewCameraCell.m; sourceTree = "<group>"; };
+		0B9B3F181C44A286002480EA /* ImagePickerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewCell.h; sourceTree = "<group>"; };
+		0B9B3F191C44A286002480EA /* ImagePickerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewCell.m; sourceTree = "<group>"; };
+		0B9B3F1A1C44A286002480EA /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
+		0B9B3F1B1C44A286002480EA /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewController.m; sourceTree = "<group>"; };
+		0B9B3F201C44A354002480EA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0BA1ED131C4A764800CBC53A /* common_radio_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_radio_selected@2x.png"; sourceTree = "<group>"; };
+		0BA1ED141C4A764800CBC53A /* common_radio_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_radio_selected@3x.png"; sourceTree = "<group>"; };
+		0BA1ED151C4A764800CBC53A /* user_center_no-photo-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_no-photo-right@2x.png"; sourceTree = "<group>"; };
+		0BA1ED161C4A764800CBC53A /* user_center_no-photo-right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_no-photo-right@3x.png"; sourceTree = "<group>"; };
+		0BA1ED1B1C4A7BF400CBC53A /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		0BA1ED1C1C4A7BF400CBC53A /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9B3F211C44A354002480EA /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +109,7 @@
 		0B9B3ED41C44A271002480EA = {
 			isa = PBXGroup;
 			children = (
+				0B9B3F201C44A354002480EA /* AssetsLibrary.framework */,
 				0B9B3EDF1C44A271002480EA /* DSAlbumPickerController */,
 				0B9B3EF91C44A271002480EA /* DSAlbumPickerControllerTests */,
 				0B9B3F041C44A271002480EA /* DSAlbumPickerControllerUITests */,
@@ -101,10 +130,14 @@
 		0B9B3EDF1C44A271002480EA /* DSAlbumPickerController */ = {
 			isa = PBXGroup;
 			children = (
+				0B045A421C4A83F700CC8F31 /* DSAlbumPickerControllerDemo.gif */,
+				0B9B3F131C44A286002480EA /* DSAlbumPickerController */,
 				0B9B3EE31C44A271002480EA /* AppDelegate.h */,
 				0B9B3EE41C44A271002480EA /* AppDelegate.m */,
 				0B9B3EE61C44A271002480EA /* ViewController.h */,
 				0B9B3EE71C44A271002480EA /* ViewController.m */,
+				0BA1ED1B1C4A7BF400CBC53A /* CollectionViewCell.h */,
+				0BA1ED1C1C4A7BF400CBC53A /* CollectionViewCell.m */,
 				0B9B3EE91C44A271002480EA /* Main.storyboard */,
 				0B9B3EEC1C44A271002480EA /* Assets.xcassets */,
 				0B9B3EEE1C44A271002480EA /* LaunchScreen.storyboard */,
@@ -138,6 +171,25 @@
 				0B9B3F071C44A271002480EA /* Info.plist */,
 			);
 			path = DSAlbumPickerControllerUITests;
+			sourceTree = "<group>";
+		};
+		0B9B3F131C44A286002480EA /* DSAlbumPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				0BA1ED131C4A764800CBC53A /* common_radio_selected@2x.png */,
+				0BA1ED141C4A764800CBC53A /* common_radio_selected@3x.png */,
+				0BA1ED151C4A764800CBC53A /* user_center_no-photo-right@2x.png */,
+				0BA1ED161C4A764800CBC53A /* user_center_no-photo-right@3x.png */,
+				0B9B3F141C44A286002480EA /* ImagePickerView.h */,
+				0B9B3F151C44A286002480EA /* ImagePickerView.m */,
+				0B9B3F161C44A286002480EA /* ImagePickerViewCameraCell.h */,
+				0B9B3F171C44A286002480EA /* ImagePickerViewCameraCell.m */,
+				0B9B3F181C44A286002480EA /* ImagePickerViewCell.h */,
+				0B9B3F191C44A286002480EA /* ImagePickerViewCell.m */,
+				0B9B3F1A1C44A286002480EA /* ImagePickerViewController.h */,
+				0B9B3F1B1C44A286002480EA /* ImagePickerViewController.m */,
+			);
+			path = DSAlbumPickerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +295,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA1ED1A1C4A764800CBC53A /* user_center_no-photo-right@3x.png in Resources */,
+				0BA1ED171C4A764800CBC53A /* common_radio_selected@2x.png in Resources */,
+				0B045A431C4A83F700CC8F31 /* DSAlbumPickerControllerDemo.gif in Resources */,
 				0B9B3EF01C44A271002480EA /* LaunchScreen.storyboard in Resources */,
 				0B9B3EED1C44A271002480EA /* Assets.xcassets in Resources */,
 				0B9B3EEB1C44A271002480EA /* Main.storyboard in Resources */,
+				0BA1ED181C4A764800CBC53A /* common_radio_selected@3x.png in Resources */,
+				0BA1ED191C4A764800CBC53A /* user_center_no-photo-right@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9B3F1C1C44A286002480EA /* ImagePickerView.m in Sources */,
+				0B9B3F1D1C44A286002480EA /* ImagePickerViewCameraCell.m in Sources */,
 				0B9B3EE81C44A271002480EA /* ViewController.m in Sources */,
 				0B9B3EE51C44A271002480EA /* AppDelegate.m in Sources */,
+				0B9B3F1E1C44A286002480EA /* ImagePickerViewCell.m in Sources */,
+				0B9B3F1F1C44A286002480EA /* ImagePickerViewController.m in Sources */,
+				0BA1ED1D1C4A7BF400CBC53A /* CollectionViewCell.m in Sources */,
 				0B9B3EE21C44A271002480EA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DSAlbumPickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GMAIL.dushu.DSAlbumPickerController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DSAlbumPickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GMAIL.dushu.DSAlbumPickerController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +562,7 @@
 				0B9B3F0C1C44A271002480EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B9B3F0D1C44A271002480EA /* Build configuration list for PBXNativeTarget "DSAlbumPickerControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +571,7 @@
 				0B9B3F0F1C44A271002480EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B9B3F101C44A271002480EA /* Build configuration list for PBXNativeTarget "DSAlbumPickerControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +580,7 @@
 				0B9B3F121C44A271002480EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
