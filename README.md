@@ -6,8 +6,9 @@
         直接把DSAlbumPickerController文件夹拉到项目中即可使用
         
 ### 注意
-        1.DSAlbumPickerController是用presentViewController的方式present出来的
+        1.DSAlbumPickerController是用presentViewController的方式present出来的.
         2.选择好的图片是以图片的URL的方式传出来的, URL转成UIImage的方式请看示例代码.
+        3.项目中要导入AssetsLibrary.framework框架.
         
 ### 示例代码
         [_assetsLibrary assetForURL:self.selectedAssets[indexPath.item] resultBlock:^(ALAsset *asset) {
